@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<title></title>
+	<link href="../dist/eyeosModalWindow.min.css" rel="stylesheet">
+</head>
+<body>
+	<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="../dist/eyeosModalWindow.min.js"></script>
+	<script>
+		BootstrapDialog.show({
+			title: 'Say-hello dialog',
+			message: 'Hello world!',
+			buttons: [{
+				id: 'btn-ok',
+				label: 'Ok',
+				cssClass: 'btn-primary',
+				autospin: false,
+				action: function(dialogRef){
+					dialogRef.close();
+					console.log('hola !');
+				}
+			}],
+			closable: false
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "eyeos-modal-window-lib",
+  "description": "Bootstrap-dialog wrapper",
+  "version": "0.0.17",
+  "main": [
+    "dist/eyeosModalWindow.min.css",
+    "dist/eyeosModalWindow.min.js"
+  ],
+  "ignore": [
+    "source",
+    "spec",
+    ".bowerrc",
+    ".gitignore",
+    ".jshintignore",
+    ".jshintrc",
+    "bower.json",
+    "Gruntfile.js",
+    "package.json",
+    "README.md"
+  ],
+  "dependencies": {
+    "jquery": "2.1.1",
+    "bootstrap-dialog": "1.33.4"
+  },
+  "license": "AGPL-3.0"
+}
